@@ -1,0 +1,13 @@
+# env
+*.env
+.envrc
+
+# 
+nogit/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDE - VSCode
+.vscode/*
