@@ -7,7 +7,7 @@ fields:
 - dimension: user_id
   sql: user_id
   label: Id
-  
+
 - dimension: age
   result: number
   sql: age
