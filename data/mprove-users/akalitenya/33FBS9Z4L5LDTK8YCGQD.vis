@@ -1,0 +1,12 @@
+vis: 33FBS9Z4L5LDTK8YCGQD
+
+reports:
+
+- title: Orders Count
+  model: ec1_m1
+  select:
+  - b.count
+  default_filters:
+    b.created___year:
+    - on 2023/01/20 08:00 to 2023/01/01 00:00
+  type: table
